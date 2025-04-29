@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <style>
+     @media (max-width: 768px) {
+      .noticia-imagen {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+  
+      .noticia-imagen div {
+        margin-left: 0;
+        max-width: 100%;
+      }
+  
+      h2 {
+        font-size: 1.5em;
+      }
+  
+      h3 {
+        font-size: 1.2em;
+      }
+  
+      .news-entry {
+        text-align: center;
+      }
+  
+      nav {
+        flex-direction: column;
+      }
+  
+      nav a {
+        padding: 10px;
+      }
+    }
+  
+    @media (max-width: 480px) {
+
+      .noticia-imagen {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+  
+      .noticia-imagen div {
+        margin-left: 0;
+        max-width: 100%;
+      }
+
+      h2 {
+        font-size: 1.2em;
+      }
+  
+      h3 {
+        font-size: 1em;
+      }
+
+      .news-entry {
+        text-align: center;
+      }
+  
+      nav {
+        flex-direction: column;
+      }
+  
+      nav a {
+        size: 1em;
+        padding: 10px;
+      }
+
+    }
+  </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="description" content="La M Deportiva: Toda la información sobre deportes como fútbol, gimnasia artística, automovilismo y vóley."/>
+  <meta name="keywords" content="Deportes, Fútbol, Gimnasia Artística, Automovilismo, Vóley, Noticias deportivas"/>
+  <meta name="author" content="La M Deportiva">
+  <title>La M Deportiva - Noticias Deportivas</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+  <header>
+    <h1>La M Deportiva</h1>
+    <p class="subtitulo">Vivimos el deporte</p>
+  </header>
+  <nav>
+    <ul>
+      <li><a href="index.html">Inicio</a></li>
+      <li><a href="futbol.html">Fútbol</a></li>
+      <li><a href="gimnasia.html">Gimnasia Artística</a></li>
+      <li><a href="automovilismo.html">Automovilismo</a></li>
+      <li><a href="voley.html">Vóley</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <section>
+      <div class="info">
+        <h2 style="text-align: center;">Toda la información de deportes</h2>
+      </div>
+
+      <article class="news-entry">
+        <a href="boca.html" class="link-noticia">
+          <h3>Fútbol</h3>
+          <div class="noticia-imagen">
+            <img src="./src/river.JPG" alt="Boca Juniors empató sin goles contra Barcelona" class="boca-noticia"/>
+            <div>
+              <h2>River empató sin goles contra Barcelona</h2>
+              <h3>leer más</h3>
+              <p class="fecha">7 de abril de 2025</p>
+            </div>
+          </div>
+        </a>
+      </article>
+
+      <article class="news-entry">
+        <a href="f1.html" class="link-noticia">
+          <h3>Automovilismo</h3>
+          <div class="noticia-imagen">
+            <img src="./src/f1.jpg" alt="Oscar Piastri gana en Bahréin" class="boca-noticia"/>
+            <div>
+              <h2>Piastri: primero en la carrera y en el campeonato de pilotos</h2>
+              <h3>leer más</h3>
+              <p class="fecha">20 de abril de 2025</p>
+            </div>
+          </div>
+        </a>
+      </article>
+
+      <article class="news-entry">
+        <a href="liga.html" class="link-noticia">
+          <h3>Vóley</h3>
+          <div class="noticia-imagen">
+            <img src="./src/gimnasia-voley.PNG" alt="Vóley: Selección femenina en semifinales" class="boca-noticia"/>
+            <div>
+              <h2>Gimnasia ganó el clásico ante Estudiantes y se quedó con la Liga Femenina de Voley</h2>
+              <h3>Leer más</h3>
+              <p class="fecha">16 de abril de 2025</p>
+            </div>
+          </div>
+        </a>
+      </article>
+
+    </section>
+  </main>
+
+  <footer>
+    <p>La M Deportiva - Todos los derechos reservados</p>
+    <div class="socials">
+      <a href="https://www.instagram.com/micachiozzaa/" aria-label="Instagram de La M Deportiva">Instagram</a> | 
+      <a href="https://x.com/micaachiozzaa" aria-label="Cuenta de Twitter de La M Deportiva">X</a>
+    </div>
+  </footer>
+</body>
+</html>
