@@ -1,97 +1,88 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <style> 
-  
-    a.link-noticia {
-      text-decoration: none;
-      color: inherit;
-    }
-  
-    .link-noticia h2,
-    .link-noticia h3,
-    .link-noticia p {
-      text-decoration: none;
-      color: black;
-    }
-  
-    .link-noticia:hover h3 {
-      text-decoration: underline;
-      color: #5e2484;
-    }
-  
-    /* Estilos generales */
-    body {
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="description" content="River Plate perdió por penales ante Platense en el Monumental">
+  <meta name="keywords" content="River, River Plate, Platense, Torneo Apertura, Liga Profesional, Calamar, penales, resultado">
+  <meta name="author" content="La M Deportiva">
+
+  <title>River Plate perdió por penales ante Platense en el Monumental</title> 
+  <link rel="stylesheet" href="style.css" />
+  <style>
+      body {
       font-family: Arial, sans-serif;
       margin: 0;
       padding: 0;
-      background-color: #f9f9f9;
     }
-  
-    header {
-      background-color: #5e2484;
-      color: white;
-      text-align: center;
-      padding: 20px 0;
-    }
-  
+
     nav {
       display: flex;
       justify-content: center;
       background-color: #3a1d68;
       padding: 10px 0;
     }
-  
+
     nav a {
-      color: white;
       text-decoration: none;
-      padding: 10px 20px;
+      color: #eee;
+      font-weight: bold;
+      margin: 0 15px;
     }
-  
+
+   
     nav a:hover {
-      background-color: #5e2484;
+ 
+       background-color: #5e2484;
+
+    } 
+
+    .boca-2 {
+      display: block;
+      margin: 20px auto;
+      width: 100%;
+      max-width: 600px;
+      height: auto;
+      border-radius: 12px;
     }
-  
-    main {
-      padding: 20px;
-      background-color: white;
-    }
-  
-    .news-entry {
-      margin: 20px 0;
-    }
-  
+
     .noticia-imagen {
       display: flex;
-      justify-content: space-between;
-      align-items: center;
+      flex-direction: column;
+      align-items: flex-start;
+      text-align: justify;
     }
-  
-    .noticia-imagen img {
-      max-width: 100%;
-      height: auto;
-      border-radius: 8px;
+
+    .hr {
+      color: #5e2a84;
     }
-  
-    .noticia-imagen div {
-      margin-left: 20px;
-      max-width: 60%;
+
+    .fecha {
+      font-style: italic;
+      margin-bottom: 5px;
+      margin-left: 5px;
     }
-  
+
     footer {
       text-align: center;
-      background-color: #3a1d68;
-      color: white;
-      padding: 10px 0;
+      padding: 20px;
+      background-color: #5e2a84;
     }
-  
+
     .socials a {
-      color: white;
       text-decoration: none;
-      margin: 0 10px;
+      color: #5e2a84;
+      margin: 0 5px;
     }
-  
-    /* Responsivo */
+
+    h1, h2, h3 {
+      margin-left: 10px;
+    }
+
+    p, li {
+      margin-left: 10px;
+    }
+
     @media (max-width: 768px) {
       .noticia-imagen {
         flex-direction: column;
@@ -158,30 +149,12 @@
 
     }
   </style>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <title>DERROTA MILLONARIA POR PENALES ANTE PLATENSE</title>
-  
-    <!-- 🔍 Metaetiquetas SEO -->
-    <meta name="description" content="Últimas noticias de River Plate en La M Deportiva. Enterate de los resultados y noticias del Millonario." />
-    <meta name="keywords" content="vóley, liga femenina, gimnasia, estudiantes, voley argentina, noticias de voley, deportes, clásico, La M Deportiva" />
-    <meta name="author" content="La M Deportiva" />
-    <meta name="robots" content="index, follow" />
-
-    <!-- 🟣 Metaetiquetas para redes sociales (Open Graph) -->
-    <meta property="og:title" content="River Plate quedó eliminado del Torneo Apertura en manos de Platense en el Monumental" />
-    <meta property="og:description" content="Enterate de cómo River Plate quedó eliminado del Torneo Apertura" />
-    <meta property="og:image" content="https://micachiozza.github.io/lamdeportiva/src/Captura.jpg" />
-    <meta property="og:type" content="article" />
-    <meta property="og:url" content="https://micachiozza.github.io/lamdeportiva/river.html" />
-    
-
-    <link rel="stylesheet" href="style.css" />
-  </head>
+</head>
 <body>
   <header>
     <h1>La M Deportiva</h1>
   </header>
+
   <nav>
     <a href="index.html">Inicio</a>
     <a href="futbol.html">Fútbol</a>
