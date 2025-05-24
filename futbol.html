@@ -5,6 +5,50 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Fútbol | Noticias de Argentina y el mundo</title>
   <link rel="stylesheet" href="style.css" />
+  <style>
+       /* Responsivo */
+    @media (max-width: 768px) {
+      .noticia-imagen {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+  
+      .noticia-imagen div {
+        margin-left: 0;
+        max-width: 100%;
+      }
+  
+      h2 {
+        font-size: 1.5em;
+      }
+  
+      h3 {
+        font-size: 1.2em;
+      }
+  
+      .news-entry {
+        text-align: center;
+      }
+  
+      nav {
+        flex-direction: column;
+      }
+  
+      nav a {
+        padding: 10px;
+      }
+    }
+  
+    @media (max-width: 480px) {
+      h2 {
+        font-size: 1.2em;
+      }
+  
+      h3 {
+        font-size: 1em;
+      }
+    }
+  </style>
 </head>
 <body>
   <header>
