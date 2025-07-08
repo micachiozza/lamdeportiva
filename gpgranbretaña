@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="description" content="Lando Norris se llevó el primer lugar en el Gran Premio de Austria seguido de su compañero de escudería Oscar Piastri y el piloto de Ferrari Charles Leclerc. Franco Colapinto sufrió una sanción durante la carrera.">
+  <meta name="keywords" content="F1, Automovilismo, Gran Premio, Austria, Colapinto, Norris, Piastri, McLaren">
+  <meta name="author" content="La M Deportiva">
+
+  <title>Todo lo que necesitás saber para disfrutar del Gran Premio de Gran Bretaña</title> 
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    nav {
+      display: flex;
+      justify-content: center;
+      background-color: #3a1d68;
+      padding: 10px 0;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: #eee;
+      font-weight: bold;
+      margin: 0 15px;
+    }
+
+   
+    nav a:hover {
+ 
+       background-color: #5e2484;
+
+    } 
+
+    .boca-2 {
+      display: block;
+      margin: 20px auto;
+      width: 100%;
+      max-width: 600px;
+      height: auto;
+      border-radius: 12px;
+    }
+
+    .noticia-imagen {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      text-align: justify;
+    }
+
+    .hr {
+      color: #5e2a84;
+    }
+
+    .fecha {
+      font-style: italic;
+      margin-bottom: 5px;
+      margin-left: 5px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #5e2a84;
+    }
+
+    .socials a {
+      text-decoration: none;
+      color: #5e2a84;
+      margin: 0 5px;
+    }
+
+    h1, h2, h3 {
+      margin-left: 10px;
+    }
+
+    p, li {
+      margin-left: 10px;
+    }
+
+    @media (max-width: 768px) {
+      .noticia-imagen {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+  
+      .noticia-imagen div {
+        margin-left: 0;
+        max-width: 100%;
+      }
+  
+      h2 {
+        font-size: 1.5em;
+      }
+  
+      h3 {
+        font-size: 1.2em;
+      }
+  
+      .news-entry {
+        text-align: center;
+      }
+  
+      nav {
+        flex-direction: column;
+      }
+  
+      nav a {
+        padding: 10px;
+      }
+    }
+  
+    @media (max-width: 480px) {
+
+      .noticia-imagen {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+  
+      .noticia-imagen div {
+        margin-left: 0;
+        max-width: 100%;
+      }
+
+      h2 {
+        font-size: 1.2em;
+      }
+  
+      h3 {
+        font-size: 1em;
+      }
+
+      .news-entry {
+        text-align: center;
+      }
+  
+      nav {
+        flex-direction: column;
+      }
+  
+      nav a {
+        padding: 10px;
+      }
+
+    }
+
+  </style>
+</head>
+<body>
+  <header>
+    <h1>La M Deportiva</h1>
+  </header>
+
+  <nav>
+    <a href="index.html">Inicio</a>
+    <a href="futbol.html">Fútbol</a>
+    <a href="gimnasia.html">Gimnasia Artística</a>
+    <a href="automovilismo.html">Automovilismo</a>
+    <a href="voley.html">Vóley</a>
+  </nav>
+
+  <main>
+    <section>
+      <h2 style="color: #5e2a84; font-size: 0.93em;">Fórmula 1</h2>
+      <p class="fecha"> 4 de julio de 2025</p>
+      <hr class="hr">
+
+      <article class="news-entry" style="margin-top: 20px; margin-bottom: 20px; padding: 20px;">
+        <div class="noticia-imagen">
+            <h2 style="font-size: 35px; justify-content: center;">Todo lo que necesitás saber para disfrutar del Gran Premio de Gran Bretaña</h2>
+          <p>Este fin de semana se correrá la carrera número doce del calendario mundial de Fórmula 1 en el emblemático circuito de Silverstone, ubicado en Northamptonshire, Inglaterra. </p>
+          <img src="./src/silverstone.jpg" alt="Todo lo que necesitás saber para disfrutar del Gran Premio de GB" class="boca-2"/>
+          
+        </div>
+      </article>
+    </section>
+  </main>
+
+  <footer>
+    <p>La M Deportiva - Todos los derechos reservados</p>
+    <div class="socials">
+      <a href="https://www.instagram.com/micachiozzaa/">Instagram</a> | 
+      <a href="https://x.com/micaachiozzaa">X</a>
+    </div>
+  </footer>
+</body>
